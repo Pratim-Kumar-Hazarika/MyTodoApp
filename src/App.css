@@ -1,38 +1,99 @@
-.App {
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+body{
+    font-family: 'Yeon Sung', cursive;
+    background-color: rgb(240, 233, 233);
+}
+.main_div{
+  
+  display: block;
   text-align: center;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.center_div{
+  
+  padding: 1rem;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.item{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  margin: 10px;
+  border: 2px solid rgb(63, 17, 17);
+  padding: 3px;
+  align-self: center;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-color: var(--primary-color);
+  background-color:white;
+  font-size: larger;
+  margin-top: 1rem;
+  outline: none;
+  height: 3rem;
+
+
+}
+.input_textP{
+
+  background-color:white;
+  font-size: large;
+}
+p{
+  margin-left: 1rem;
+  
+}
+/* .center-container{
+  width: 60px;
+  
+  margin: auto;
+  
+  height: 1vh;
+  display: block;
+} */
+:root{
+  --primary-color : #94560fb0;
+}
+.btn{
+  padding: 1rem;
+   width: 8rem;
+  font-size: larger;
+  margin-top: 1rem;
+ 
+  background-color: var(--primary-color);
   color: white;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-color: white;
+  outline: none;
 }
+.remove_btn{
+  padding: 1rem;
+  width: 8rem;
+ font-size: medium;
+ background-color: var(--primary-color);
+ color: white;
+ border-bottom-left-radius: 1rem;
+ border-top-right-radius: 1rem;
+ border-color: white;
+ outline: none;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input_text{
+  padding: 1rem;
+  
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-color: var(--primary-color);
+  background-color:white;
+  font-size: larger;
+  margin-top: 1rem;
+  outline: none;
+}
+.list_div{
+  max-width: 410px;
+  margin: auto;
+  
+  font-size: larger;
+  
 }
